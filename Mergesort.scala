@@ -8,8 +8,7 @@ case class DoneSorting
 case class GetNextLargestNumber
 case class NextLargestNumber(number: Double, cluster: Cluster)
 
-//Receives a message to start sorting, when this is done, sends a done sorting message
-//back to the sender.  
+
 
 class Cluster extends Actor {
   
